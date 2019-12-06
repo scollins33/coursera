@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=whileLoop
+comment0.text=\r\n\ Write\ a\ description\ of\ whileLoop\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=dna
+comment1.target=java.lang.String\ findGene(java.lang.String)
+comment10.params=
+comment10.target=void\ test()
+comment2.params=
+comment2.target=void\ testFindGeneSimple()
+comment3.params=dnaStr\ startIndex\ stopCodon
+comment3.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment4.params=dna
+comment4.target=java.lang.String\ findGeneBetter(java.lang.String)
+comment5.params=dna\ where
+comment5.target=java.lang.String\ findGeneBetterAlt(java.lang.String,\ int)
+comment6.params=dna
+comment6.target=void\ printAllGenes(java.lang.String)
+comment7.params=stra\ strb
+comment7.target=int\ howMany(java.lang.String,\ java.lang.String)
+comment8.params=dna\ where
+comment8.target=int\ findGeneIndex(java.lang.String,\ int)
+comment9.params=dna
+comment9.target=int\ countGene(java.lang.String)
+numComments=11
