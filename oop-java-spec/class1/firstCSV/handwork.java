@@ -24,7 +24,7 @@ public class handwork {
         FileResource fr = new FileResource();
         CSVParser parser = fr.getCSVParser();
         
-        listExporters(parser, "coffee");
+        listExporters(parser, "cocoa");
     }
     
     public void tester() {
@@ -46,6 +46,20 @@ public class handwork {
         
         CSVParser parser4 = file.getCSVParser();
         bigExporters(parser4, "$999,999,999");
+    }
+    
+    public void quiz() {
+        FileResource file = new FileResource();
+        // q1
+        CSVParser parser = file.getCSVParser();
+        String exp1 = "cotton";
+        String exp2 = "flowers";
+        listExportersTwoProducts(parser, exp1, exp2);
+        
+        //q3
+        System.out.println("--------------- question 3 -------------");
+        CSVParser parser4 = file.getCSVParser();
+        bigExporters(parser4, "$999,999,999,999");
     }
     
     public String countryInfo(CSVParser parser, String country) {
