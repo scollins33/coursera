@@ -5,4 +5,6 @@ comment1.params=key
 comment1.target=CesarCypherObj(int)
 comment2.params=input
 comment2.target=java.lang.String\ encrypt(java.lang.String)
-numComments=3
+comment3.params=encrypted
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+numComments=4

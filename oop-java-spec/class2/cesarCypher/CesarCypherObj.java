@@ -21,6 +21,7 @@ public class CesarCypherObj {
     private String lowAlphabet;
     private String combAlphabet;
     private String shiftedAlphabet;
+    private int mainKey;
     
     // initialization
     public CesarCypherObj(int key) {
@@ -31,6 +32,8 @@ public class CesarCypherObj {
         String uShifted = upAlphabet.substring(key) + upAlphabet.substring(0, key);
         String lShifted = lowAlphabet.substring(key) + lowAlphabet.substring(0, key);        
         shiftedAlphabet = uShifted + lShifted;
+        
+        mainKey = key;
     }
     
     public String encrypt(String input) {
@@ -47,5 +50,10 @@ public class CesarCypherObj {
         }
         
         return encrypted.toString();
+    }
+    
+    public String decrypt(String encrypted) {
+        CesarCypherObj cc = new CesarCypherObj(26 - mainKey);
+        return cc.encrypt(encrypted);
     }
 }
