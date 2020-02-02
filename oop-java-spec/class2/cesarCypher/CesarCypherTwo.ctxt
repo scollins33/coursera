@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=CesarCypherTwo
-comment0.text=\r\n\ Write\ a\ description\ of\ CesarCypherTwo\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=key1\ key2
-comment1.target=CesarCypherTwo(int,\ int)
-comment2.params=input
-comment2.target=java.lang.String\ encrypt(java.lang.String)
-numComments=3
